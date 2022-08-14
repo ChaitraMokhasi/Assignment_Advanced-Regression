@@ -3,46 +3,38 @@
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* Problem Statement
+* Technologies Used
+* Conclusions
 
-<!-- You can include any other section that is pertinent to your problem -->
+## Problem Statement
+A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file below.
 
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+The company is looking at prospective properties to buy to enter the market. You are required to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+The company wants to know:
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+Which variables are significant in predicting the price of a house, and
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+How well those variables describe the price of a house.
 
+Also, determine the optimal value of lambda for ridge and lasso regression.
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Advanced Regression 
+- Regularization tehcniques - Ridge and Lasso
+- Programming language - Python 3.x
+- Software - Jupyter Notebook
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+## Conclusions
+R2 Score of Test data for Lasso regression is 0.864071 is slightly higher than the R2 Score of Test data for Redge regression , which is 0.862928.
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+Mean square error of Test data for Lasso regression is 0.048687 is slightly lower than the Mean square error of Test data for Redge regression , which is 0.048892.
 
+Lasso regression model can predict the more accurate values for the sale price for house.
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by ChaitraMokhasi - feel free to contact me!
 
 
 <!-- Optional -->
